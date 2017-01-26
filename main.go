@@ -1,9 +1,11 @@
 package main
-import(
+
+import (
 	"fmt"
 	"os"
-	)
-func main(){
+)
+
+func main() {
 	fmt.Println("Hello my name is")
 	os.Exit(0)
-	}
+}
