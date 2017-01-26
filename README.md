@@ -1,2 +1,2 @@
 # testing
-all kinds of stoopid go bs
+all kinds of stoopid go bs for fun
