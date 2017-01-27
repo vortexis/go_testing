@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello my name is")
+	fmt.Println("Hello and Goodbye")
 	os.Exit(0)
 }
