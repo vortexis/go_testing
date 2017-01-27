@@ -10,5 +10,5 @@ func main() {
 	fmt.Scanf("%f", &userInput)
 	var output float64
 	output = ((userInput - 32) * 5 / 9)
-	fmt.Println(output)
+	fmt.Println(output, "is the temperature in Celsius")
 }
