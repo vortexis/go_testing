@@ -4,9 +4,8 @@ import(
 	"fmt"
 )
 func main(){
-	var x string
-	x = "hello"
+	var x string = "hello"
 	fmt.Println(x)
-	x = x + "world"
+	x = x + " world"
 	fmt.Println(x)
 }
