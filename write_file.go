@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	information_in_file, err := ioutil.ReadFile("/home/grakhul/Documents/Code/Git/this.txt")
+	information_in_file, err := ioutil.ReadFile("/home/${USER}/Documents/Code/Git/this.txt")
 	if err != nil {
 		fmt.Print(err)
 	}
