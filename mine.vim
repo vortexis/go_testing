@@ -45,12 +45,14 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 " syntax highlighting
 hi Comment    cterm=NONE ctermfg=Cyan     gui=NONE guifg=blue2
+"hi Comment    cterm=NONE ctermfg=DarkCyan     gui=NONE guifg=blue2
 hi Constant   cterm=NONE ctermfg=Yellow   gui=NONE guifg=yellow3
 hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4
-hi PreProc    cterm=NONE ctermfg=DarkMagenta gui=NONE guifg=magenta3
+hi PreProc    cterm=NONE ctermfg=Magenta gui=NONE guifg=magenta
 hi Special    cterm=NONE ctermfg=LightRed    gui=NONE guifg=deeppink
 hi Statement  cterm=bold ctermfg=Red	     gui=bold guifg=red
 hi Type	      cterm=NONE ctermfg=Green     gui=bold guifg=green
 hi Keyword    cterm=NONE ctermfg=Blue     gui=NONE guifg=blue
+hi Special    cterm=NONE ctermfg=6     gui=NONE guifg=cyan4
 
 " vim: sw=2
