@@ -24,5 +24,4 @@ func main() {
 	var as_string string = string(information_in_file)
 
 	fmt.Println(as_string)
-
 }
