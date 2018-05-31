@@ -53,6 +53,6 @@ hi Special    cterm=NONE ctermfg=LightRed    gui=NONE guifg=deeppink
 hi Statement  cterm=bold ctermfg=Red	     gui=bold guifg=red
 hi Type	      cterm=NONE ctermfg=Green     gui=bold guifg=green
 hi Keyword    cterm=NONE ctermfg=Blue     gui=NONE guifg=blue
-hi Special    cterm=NONE ctermfg=6     gui=NONE guifg=6
+hi Special    cterm=NONE ctermfg=6     gui=NONE guifg=cyan4
 
 " vim: sw=2
