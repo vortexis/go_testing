@@ -11,5 +11,4 @@ func main() {
 	var output float64
 	output = ( userInput * 0.3048 )
 	fmt.Println(output)
-
 }
