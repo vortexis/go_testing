@@ -2,21 +2,22 @@ package main
 
 import (
 	"fmt"
-	//"io/ioutil"
+	"io/ioutil"
 )
 
 func main() {
-//	information_in_file, err := ioutil.ReadFile("/home/${USER}/Documents/this.txt")
+	my_file, err := ioutil.ReadFile("/tmp/this.txt")
 	if err != nil {
-
-		fmt.Print(err)
+		panic(err)
+	}else{
+		fmt.Println("Contents of:\n", string(my_file))
 	}
 
-	//Example of raw data returned from the function above
-	fmt.Println(information_in_file)
+	fmt.Println("Hello please enter a value:")
 
-	// here the raw data is converted to a string using a function
-	var as_string string = string(information_in_file)
+	var userInput string
 
-	fmt.Println(as_string)
+	fmt.Scanf("%s", &userInput)
+
+	fmt.Println("This is your input:   ", userInput)
 }
