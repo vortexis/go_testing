@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Enter a number. We will multiply it by two:")
+	fmt.Println("Enter a number. We will multiply it by a random number :")
 	var theNumber float64
 	fmt.Scanf("%f", &theNumber)
 	output := theNumber * 4
