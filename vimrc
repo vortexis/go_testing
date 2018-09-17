@@ -17,7 +17,6 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 "let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'fatih/vim-go'
 
 
 "The following are examples of different formats supported.
