@@ -8,7 +8,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let g:colors_name="portprince"
+let g:colors_name="portoprince"
 
 " Normal should come first
 hi Normal     guifg=Black  guibg=White
