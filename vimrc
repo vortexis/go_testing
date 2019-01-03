@@ -10,6 +10,7 @@ filetype off                  " required
 
 "set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=$GOROOT/misc/vim
 call vundle#begin()
 
 
@@ -33,15 +34,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-
 "see :h vundle for more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 syntax on
 
 
-"To ignore plugin indent changes, instead use: filetype plugin on
-filetype plugin on
 set number
 let g:go_highlight_structs = 1 
 let g:go_highlight_methods = 1
