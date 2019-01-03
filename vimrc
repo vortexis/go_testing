@@ -10,7 +10,6 @@ filetype off                  " required
 
 "set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-set rtp+=$GOROOT/misc/vim
 call vundle#begin()
 
 
