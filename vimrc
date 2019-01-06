@@ -38,9 +38,6 @@ filetype plugin indent on    " required
 syntax on
 
 
-<<<<<<< HEAD
 "To ignore plugin indent changes, instead use: filetype plugin on
-=======
->>>>>>> 724b98c879adf02dab5ff7a6cbe2c184034402b1
 set number
 colo portoprince
