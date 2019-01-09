@@ -24,8 +24,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 "Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
-"Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
-
+Plugin 'zchee/deoplete-go'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
