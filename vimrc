@@ -22,25 +22,22 @@ Plugin 'VundleVim/Vundle.vim'
 "The following are examples of different formats supported.
 "Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-
+"Plugin 'tpope/vim-fugitive'
+Plugin 'fatih/vim-go'
+"Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
 
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-
 "see :h vundle for more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 syntax on
 
 
 "To ignore plugin indent changes, instead use: filetype plugin on
-filetype plugin on
 set number
 colo portoprince
