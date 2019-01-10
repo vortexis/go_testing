@@ -38,6 +38,14 @@ filetype plugin indent on    " required
 
 "Put your non-Plugin stuff after this line
 syntax on
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+
 set number
 set incsearch
-colo portoprince
+let g:rehash256 = 1
+colorscheme portoprince
