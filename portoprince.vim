@@ -63,3 +63,16 @@ hi Label	cterm=NONE ctermfg=22	gui=NONE guifg=DarkGreen
 hi Operator	cterm=NONE ctermfg=41	gui=NONE guifg=SpringGreen
 hi Repeat	cterm=NONE ctermfg=55	gui=NONE guifg=Purple4
 hi Todo		cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
+
+"Don't forget to add this to the end of your .vimrc
+"let g:go_highlight_types = 1
+"let g:go_highlight_fields = 1
+"let g:go_highlight_functions = 1
+"let g:go_highlight_function_calls = 1
+"let g:go_highlight_operators = 1
+"let g:go_highlight_extra_types = 1
+"let g:go_highlight_generate_tags = 1
+"let g:go_highlight_format_strings = 1
+"let g:go_highlight_variable_declarations = 1
+"let g:go_highlight_variable_assignments = 1
+"
