@@ -57,3 +57,9 @@ hi Statement  cterm=bold ctermfg=Red	     gui=bold guifg=red
 hi Type	      cterm=NONE ctermfg=Green     gui=bold guifg=green
 hi Keyword    cterm=NONE ctermfg=Blue     gui=NONE guifg=blue
 hi Special    cterm=NONE ctermfg=6     gui=NONE guifg=cyan4
+hi Conditional cterm=NONE ctermfg=8	gui=NONE guifg=Grey
+hi Function	cterm=NONE ctermfg=17	gui=NONE guifg=NavyBlue
+hi Label	cterm=NONE ctermfg=22	gui=NONE guifg=DarkGreen
+hi Operator	cterm=NONE ctermfg=41	gui=NONE guifg=SpringGreen
+hi Repeat	cterm=NONE ctermfg=55	gui=NONE guifg=Purple4
+hi Todo		cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
