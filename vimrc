@@ -25,6 +25,7 @@ Plugin 'VundleVim/Vundle.vim'
 " vim-fugitive provides git commands within vim
 "Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
+Plugin 'KeitaNakamura/neodark.vim'
 "The sparkup vim script is in a subdirectory of this repo called vim.
 "Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -48,7 +49,6 @@ let g:go_highlight_generate_tags = 1
 let g:go_highlight_format_strings = 1
 let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
-let g:rehash256 = 1
 set number
 set incsearch
 colorscheme portoprince
