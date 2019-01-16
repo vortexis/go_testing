@@ -48,19 +48,20 @@ hi WarningMsg ctermfg=DarkRed	   guifg=Red
 hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 " syntax highlighting
-hi Comment    cterm=NONE ctermfg=LightCyan     gui=NONE guifg=blue1
-hi Constant   cterm=NONE ctermfg=Yellow   gui=NONE guifg=yellow3
-hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4
-hi PreProc    cterm=NONE ctermfg=Magenta gui=NONE guifg=magenta
-hi Special    cterm=NONE ctermfg=LightRed    gui=NONE guifg=deeppink
-hi Statement  cterm=bold ctermfg=Red	     gui=bold guifg=red
-hi Type	      cterm=NONE ctermfg=Green     gui=bold guifg=green
-hi Keyword    cterm=NONE ctermfg=Blue     gui=NONE guifg=blue
-hi Special    cterm=NONE ctermfg=6     gui=NONE guifg=cyan4
-hi Conditional cterm=NONE ctermfg=8	gui=NONE guifg=Grey
-hi Function	cterm=NONE ctermfg=17	gui=NONE guifg=NavyBlue
-hi Label	cterm=NONE ctermfg=22	gui=NONE guifg=DarkGreen
-hi Operator	cterm=NONE ctermfg=41	gui=NONE guifg=SpringGreen
+"hi Identifier cterm=BOLD ctermfg=Yellow gui=NONE guifg=Yellow3
+hi Comment    cterm=NONE ctermfg=45	gui=NONE guifg=Turquoise2
+hi Constant   cterm=NONE ctermfg=184	gui=NONE guifg=Yellow3
+hi Identifier cterm=NONE ctermfg=100	gui=NONE guifg=Yellow4
+hi PreProc    cterm=NONE ctermfg=Red	gui=NONE guifg=Red
+hi Special    cterm=NONE ctermfg=Red    gui=NONE guifg=Red
+hi Statement  cterm=NONE ctermfg=Red    gui=NONE guifg=Red
+hi Type	      cterm=NONE ctermfg=Green  gui=NONE guifg=Green
+hi Keyword    cterm=NONE ctermfg=63	gui=NONE guifg=RoyalBlue1
+hi Special    cterm=NONE ctermfg=6      gui=NONE guifg=cyan4
+hi Conditional cterm=NONE ctermfg=Red	gui=NONE guifg=Red
+hi Function	cterm=NONE ctermfg=1	gui=NONE guifg=Maroon
+hi Label	cterm=NONE ctermfg=5	gui=NONE guifg=Purple
+hi Operator	cterm=NONE ctermfg=129	gui=NONE guifg=Purple
 hi Repeat	cterm=NONE ctermfg=55	gui=NONE guifg=Purple4
 hi Todo		cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
 
