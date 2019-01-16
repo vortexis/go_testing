@@ -26,12 +26,12 @@ hi FoldColumn ctermfg=DarkBlue	   ctermbg=Grey     guibg=Grey	    guifg=DarkBlue
 hi Folded     ctermbg=Grey	   ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
 hi IncSearch  cterm=reverse	   gui=reverse
 hi LineNr     ctermfg=DarkGrey    guifg=DarkGrey
-hi ModeMsg    cterm=bold	   gui=bold
-hi MoreMsg    ctermfg=DarkGreen    gui=bold guifg=SeaGreen
-hi NonText    ctermfg=Blue	   gui=bold guifg=gray guibg=white
+hi ModeMsg    cterm=BOLD gui=BOLD
+hi MoreMsg    ctermfg=DarkGreen    gui=BOLD	guifg=SeaGreen
+hi NonText    ctermfg=Blue	   gui=BOLD guifg=gray guibg=white
 hi Pmenu      guibg=LightBlue
 hi PmenuSel   ctermfg=White	   ctermbg=DarkBlue  guifg=White  guibg=DarkBlue
-hi Question   ctermfg=DarkGreen    gui=bold guifg=SeaGreen
+hi Question   ctermfg=DarkGreen    gui=BOLD guifg=SeaGreen
 if &background == "light"
     hi Search     ctermfg=NONE	   ctermbg=Black guibg=Yellow guifg=NONE
 else
@@ -49,12 +49,12 @@ hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
 
 " syntax highlighting
 "hi Identifier cterm=BOLD ctermfg=Yellow gui=NONE guifg=Yellow3
-hi Comment    cterm=NONE ctermfg=45	gui=NONE guifg=Turquoise2
+hi Comment    cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
 hi Constant   cterm=NONE ctermfg=184	gui=NONE guifg=Yellow3
 hi Identifier cterm=NONE ctermfg=100	gui=NONE guifg=Yellow4
-hi PreProc    cterm=NONE ctermfg=Red	gui=NONE guifg=Red
-hi Special    cterm=NONE ctermfg=Red    gui=NONE guifg=Red
-hi Statement  cterm=NONE ctermfg=Red    gui=NONE guifg=Red
+hi PreProc    cterm=NONE ctermfg=160	gui=NONE guifg=Red3
+hi Special    cterm=NONE ctermfg=160    gui=NONE guifg=Red3
+hi Statement  cterm=NONE ctermfg=160    gui=NONE guifg=Red3
 hi Type	      cterm=NONE ctermfg=Green  gui=NONE guifg=Green
 hi Keyword    cterm=NONE ctermfg=63	gui=NONE guifg=RoyalBlue1
 hi Special    cterm=NONE ctermfg=6      gui=NONE guifg=cyan4
