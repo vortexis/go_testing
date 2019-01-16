@@ -60,9 +60,9 @@ hi Keyword    cterm=NONE ctermfg=63	gui=NONE guifg=RoyalBlue1
 hi Special    cterm=NONE ctermfg=6      gui=NONE guifg=cyan4
 hi Conditional cterm=NONE ctermfg=Red	gui=NONE guifg=Red
 hi Function	cterm=NONE ctermfg=1	gui=NONE guifg=Maroon
-hi Label	cterm=NONE ctermfg=5	gui=NONE guifg=Purple
-hi Operator	cterm=NONE ctermfg=129	gui=NONE guifg=Purple
-hi Repeat	cterm=NONE ctermfg=55	gui=NONE guifg=Purple4
+hi Label	cterm=BOLD ctermfg=92	gui=NONE guifg=DarkViolet
+hi Operator	cterm=BOLD ctermfg=129	gui=NONE guifg=Purple
+hi Repeat	cterm=BOLD ctermfg=55	gui=NONE guifg=Purple4
 hi Todo		cterm=NONE ctermfg=81	gui=NONE guifg=SteelBlue1
 
 "Don't forget to add this to the end of your .vimrc
