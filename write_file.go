@@ -6,17 +6,14 @@ import (
 )
 
 func main() {
-
-	my_file, err := ioutil.ReadFile("/tmp/this.txt")
-
+	bleh := []byte("wan, wan, wan")
+	err := ioutil.WriteFile("/tmp/myfile.txt", bleh, 0644)
 	if err != nil {
-
-		panic(err)
-
-	} else {
-
-		fmt.Println("Contents of:\n", string(my_file))
-
+		fmt.Println(err)
 	}
-
+	f, err := ioutil.ReadFile("/tmp/myfile.txt")
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println("When babies cry it sounds like", string(f))
 }
