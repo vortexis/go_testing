@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"os"
 )
 
 func main() {
@@ -15,5 +16,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+	fmt.Println("When babies cry, their bytes sound like", f)
 	fmt.Println("When babies cry it sounds like", string(f))
+	os.Remove("/tmp/myfile.txt")
 }
