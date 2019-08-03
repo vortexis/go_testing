@@ -1,19 +1,17 @@
 package main
 
-//import "fmt"
+import "fmt"
 import "os"
 import "github.com/fatih/color"
 
 func main() {
-	red := color.New(color.FgRed).PrintfFunc()
-	/*	me, err := os.Hostname()
-		if err != nil {
-			panic(err)
-		} else {
-			red("hello\n")
-			fmt.Println(me)
-		}*/
+	red := color.New(color.FgRed).PrintlnFunc()
+	me, err := os.Hostname()
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		red("hello\n")
+		red(me, "\n")
+	}
 
-	red("hello\n\n")
-	red(os.Hostname())
 }
