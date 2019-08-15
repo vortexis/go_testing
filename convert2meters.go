@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-//this is a comment
 func main() {
 	var answer float64
 

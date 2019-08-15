@@ -1,9 +1,10 @@
 package main
 
-import(
+import (
 	"fmt"
 )
-func main(){
+
+func main() {
 	var x string = "hello"
 	fmt.Println(x)
 	x = x + " world"
