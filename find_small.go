@@ -6,7 +6,7 @@ import "fmt"
 var a, b, c int
 
 func main() {
-	x := []int{55, 20, 88, 100, 33, 3, 95, 33, 84, 21, 93, 36, 9, 54, 82, 4}
+	x := []int{55, 20, 88, 100, 33, 95, 33, 84, 21, 93, 36, 9, 54, 3, 82, 4}
 	b := x[0]
 	for a = 0; a < len(x); a++ {
 		fmt.Println(a, "we are evaluating: ", x[a], "against", b)
